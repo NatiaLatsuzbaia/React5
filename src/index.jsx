@@ -23,7 +23,7 @@ class Natia extends React.Component{
         return (
             <React.Fragment>
                 {
-                <button type="button" class="btn btn-warning CCC" onClick={() => this.setValue()}>დააჭირე</button>
+                <button type="button" class="btn btn-warning" onClick={() => this.setValue()}>დააჭირე</button>
                 }
 
             </React.Fragment>
