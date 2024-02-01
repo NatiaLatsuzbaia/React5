@@ -8,7 +8,7 @@ class Natia extends React.Component{
         
         this.state =  {
             name: " ",
-            window.alert(this.state.name);
+           
         };
     }
 
