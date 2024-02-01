@@ -13,10 +13,9 @@ class Natia extends React.Component{
     }
 
     setValue(){
-        this.setState({
-          name: "demna",
+        this.setState({name: "demna"}, function() {
+            window.alert(this.state.name);
         });
-        window.alert(this.state.name);
         
     }
     render() {
